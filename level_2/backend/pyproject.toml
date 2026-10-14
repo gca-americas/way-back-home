@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi==0.128.3",
-    "google-adk==1.24.1",
+    "google-adk==1.28.1",
     "google-cloud-aiplatform>=1.133.0",
     "google-cloud-spanner>=3.61.0",
     "google-cloud-storage>=3.7.0",

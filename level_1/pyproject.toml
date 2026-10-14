@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "google-genai>=1.0.0",
-    "google-adk==1.17.0",
+    "google-adk==1.28.1",
     "google-cloud-bigquery>=3.0.0",
     "Pillow>=10.0.0",
     "requests>=2.31.0",
