@@ -1,4 +1,4 @@
-google-genai==1.56.0
+google-genai==1.64.0
 websockets==15.0.1
 python-dotenv==1.2.1
 fastapi==0.128.3
