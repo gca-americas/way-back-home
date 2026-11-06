@@ -267,7 +267,7 @@ class SpannerGraphService:
                  dur = int(float(info['duration_seconds']))
                  columns.append('duration_seconds')
                  values.append(dur)
-             except:
+             except (ValueError, TypeError):
                  pass
 
         transaction.insert('Broadcasts', columns=columns, values=[values])
